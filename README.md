@@ -1,12 +1,13 @@
 # React Native Animated Ellipsis
 A simple, customizable animated dots component for use in React Native apps. Ideal for loading screens.
+This project was forked from adorableio, because the maintainer has not been replying for the last few months and I have too many of this in my projects.
 
 ![Kinda like iOS](https://raw.githubusercontent.com/wiki/adorableio/react-native-animated-ellipsis/images/example_ios_ish.gif)
 
 
 ## Installation
 ```shell
-npm install --save react-native-animated-ellipsis
+npm install --save @xlanor/react-native-animated-ellipsis
 ```
 
 ## Importing
@@ -49,7 +50,15 @@ Customize the number of dots, animation speed, and style using these props:
 
 ## More Examples
 
-![Ten Dots Example](https://raw.githubusercontent.com/wiki/adorableio/react-native-animated-ellipsis/images/example_ten_dots.gif)
+![Ten Dots Example](https://raw.githubusercontent.com/wiki/adorableio/
+
+
+
+
+
+
+
+-animated-ellipsis/images/example_ten_dots.gif)
 
 ```jsx
 <AnimatedEllipsis numberOfDots={10} />
