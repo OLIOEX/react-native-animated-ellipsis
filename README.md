@@ -1,6 +1,8 @@
+
+This project was forked from adorableio, because the maintainer has not been replying for the last few months and I have too many of this in my projects.
+
 # React Native Animated Ellipsis
 A simple, customizable animated dots component for use in React Native apps. Ideal for loading screens.
-This project was forked from adorableio, because the maintainer has not been replying for the last few months and I have too many of this in my projects.
 
 ![Kinda like iOS](https://raw.githubusercontent.com/wiki/adorableio/react-native-animated-ellipsis/images/example_ios_ish.gif)
 
