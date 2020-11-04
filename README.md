@@ -14,7 +14,13 @@ npm install --save @xlanor/react-native-animated-ellipsis
 
 ## Importing
 ```js
-import AnimatedEllipsis from 'react-native-animated-ellipsis';
+import AnimatedEllipsis from '@xlanor/react-native-animated-ellipsis';
+```
+
+## Jest issue with scoped libraries.
+Add the following after `setupFilesAfterEnv`
+```
+    "transformIgnorePatterns": ["^/node_module/[A-Za-z1-9./_-]*$"]
 ```
 
 ## Usage
