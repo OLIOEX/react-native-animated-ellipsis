@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, Animated, View, StyleSheet } from 'react-native';
+import { TextStyleProp, Animated, View, StyleSheet } from 'react-native';
 import PropTypes from 'prop-types';
 
 
@@ -8,7 +8,7 @@ export default class AnimatedEllipsis extends Component {
     numberOfDots: PropTypes.number,
     animationDelay: PropTypes.number,
     minOpacity: PropTypes.number,
-    style: Text.propTypes.style,
+    style: TextStyleProp,
     useNativeDriver: PropTypes.bool
   };
 
